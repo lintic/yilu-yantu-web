@@ -1,0 +1,21 @@
+/* ═══ 医路研途 · 全站字体（霞鹜文楷，本地 fonts/ 目录） ═══ */
+@font-face {
+  font-family: "LXGW WenKai Lite";
+  src: url("fonts/LXGWWenKaiLite-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LXGW WenKai Lite";
+  src: url("fonts/LXGWWenKaiLite-Medium.woff2") format("woff2");
+  font-weight: 500 800;
+  font-display: swap;
+}
+/* 全站统一字体：霞鹜文楷 → 系统楷体 → 雅黑兜底 */
+body, button, input, textarea, select {
+  font-family: "LXGW WenKai Lite", "Kaiti SC", "STKaiti", "KaiTi",
+    "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+b, th, .font-bold { font-weight: 500; }
+/* 触屏防误触：禁用双击缩放延迟 */
+* { touch-action: manipulation; }
